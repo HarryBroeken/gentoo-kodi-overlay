@@ -147,7 +147,7 @@ In some cases Kodi needs to access multicast addresses.
 Please consider enabling IP_MULTICAST under Networking options.
 "
 
-CMAKE_USE_DIR=${S}/project/cmake/
+#CMAKE_USE_DIR=${S}/project/cmake/
 
 pkg_setup() {
 	check_extra_config
